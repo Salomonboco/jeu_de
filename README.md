@@ -6,9 +6,7 @@
 
 ### Captures d'écran
 
-<img width="357" height="400" alt="image" src="https://github.com/user-attachments/assets/0d6a5de3-ec36-4f29-a656-e1befd901552" />
-
-<img width="354" height="398" alt="image" src="https://github.com/user-attachments/assets/b7bc61ac-b9f6-49e0-8a9f-b6e7a4d7c663" />
+<img width="357" height="400" alt="image" src="https://github.com/user-attachments/assets/0d6a5de3-ec36-4f29-a656-e1befd901552" />  <img width="354" height="398" alt="image" src="https://github.com/user-attachments/assets/b7bc61ac-b9f6-49e0-8a9f-b6e7a4d7c663" />
 
 <img width="355" height="400" alt="image" src="https://github.com/user-attachments/assets/a754c5ee-00d9-41d7-b8b8-a7b6a98f2b8e" />
 
