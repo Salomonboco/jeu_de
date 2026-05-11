@@ -4,15 +4,12 @@ import random
 from tkinter import messagebox
 
 
-
 def jouer_de():
-
     numero_sorti = 0
     image_choisie = random.choice(liste_images)
     image1 = ImageTk.PhotoImage(Image.open(image_choisie))
     label_image.configure(image=image1)
     label_image.image = image1
-
 
     if image_choisie == "images/de1.png":
         numero_sorti = 1
@@ -28,16 +25,23 @@ def jouer_de():
         numero_sorti = 6
 
     if numero_choisi.get() != "":
+        try:
+            # Tentative de conversion de la saisie utilisateur en nombre entier
+            valeur_saisie = int(numero_choisi.get())
 
-        if int(numero_choisi.get()) <1 or int(numero_choisi.get())>6:
-            messagebox.showerror("Erreurs", "veuillez saisir un nombre entre 1 et 6 ")
-        elif numero_sorti != int(numero_choisi.get()):
-            label_result.config(text="Vous avez perdu")
-        else:
-            label_result.config(text="Vous avez gagné")
+            # Vérification que le nombre est bien entre 1 et 6
+            if valeur_saisie < 1 or valeur_saisie > 6:
+                messagebox.showerror("Erreurs", "Veuillez saisir un nombre entre 1 et 6")
+            elif numero_sorti != valeur_saisie:
+                label_result.config(text="Vous avez perdu")
+            else:
+                label_result.config(text="Vous avez gagné")
+        except ValueError:
+            # Cette erreur se produit si l'utilisateur saisit autre chose qu'un nombre (lettres, symboles, etc.)
+            messagebox.showerror("Erreurs", "Veuillez saisir un nombre valide entre 1 et 6")
     else:
-        messagebox.showerror("Erreurs", "veuillez saisir un nombre entre 1 et 6 ")
-
+        # Cas où le champ de saisie est vide
+        messagebox.showerror("Erreurs", "Veuillez saisir un nombre entre 1 et 6")
 
 
 
