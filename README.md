@@ -6,24 +6,19 @@
 
 ### Captures d'écran
 
-*(Ajoute ici une image de ton jeu)*
+<img width="357" height="400" alt="image" src="https://github.com/user-attachments/assets/0d6a5de3-ec36-4f29-a656-e1befd901552" />
 
----
+<img width="354" height="398" alt="image" src="https://github.com/user-attachments/assets/b7bc61ac-b9f6-49e0-8a9f-b6e7a4d7c663" />
+
+<img width="355" height="400" alt="image" src="https://github.com/user-attachments/assets/a754c5ee-00d9-41d7-b8b8-a7b6a98f2b8e" />
+
+
 
 ## Fonctionnalités
 
-- Lancer un dé à 6 faces
-- Choisir un nombre entre 1 et 6
-- Validation des entrées utilisateur
-- Interface graphique avec Tkinter
-- Messages d'erreur personnalisés
-
-### ⏳ À venir
-
-- Animation du dé qui roule
-- Compteur de victoires/défaites
-- Mode multijoueur
-- Sauvegarde des meilleurs scores
+- Saisie rapide de nombres
+- Interface simple et intuitive
+- Interaction utilisateur en temps réel
 
 ---
 
@@ -31,21 +26,24 @@
 
 | Technologie | Usage |
 |-------------|-------|
-| Python 3.x | Logique du jeu |
+| Python | Logique du jeu |
 | Tkinter | Interface graphique |
 | PIL/Pillow | Gestion des images |
-| Git/GitHub | Versionnement |
 
 ---
 
-## Installation
+## Ce que j'ai appris
 
-```bash
-# Cloner le dépôt
-git clone https://github.com/Salomonboco/jeu_de.git
+- Manipuler l'interface avec Tkinter
+- Gérer les événements clavier
+- Structurer un projet Python simple
 
-# Installer Pillow (si nécessaire)
-pip install pillow
+---
 
-# Lancer le jeu
-python jouer_de.py
+## Licence
+
+MIT
+
+---
+
+[Salomon Boco](https://github.com/salomonboco)
